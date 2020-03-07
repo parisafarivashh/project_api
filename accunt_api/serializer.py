@@ -3,7 +3,7 @@ from rest_framework import serializers
 from accunt_api.models import Account
 
 class AccountSerializer(serializers.ModelSerializer):
-  password2 = serializers.CharField(style={'input_type'},write_only=True)
+  password2 = serializers.CharField(style={'input_type':'password'},write_only=True)
 
   class Meta:
     model = Account
