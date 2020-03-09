@@ -5,3 +5,6 @@ add account in api
 2)API Model
 3)Serializer 
 4)viewset 
+
+5)create new app (blog)
+
